@@ -1,0 +1,432 @@
+[DEBUG][22-06-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1704f67f] was not registered for synchronization because synchronization is not active
+[INFO][22-06-15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-15][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@455824ad] will not be managed by Spring
+[DEBUG][22-06-15][mapper.UserMapper.getUserList]==>  Preparing: select * from user 
+[DEBUG][22-06-15][mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][22-06-15][mapper.UserMapper.getUserList]<==      Total: 8
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1704f67f]
+[DEBUG][22-06-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15fb7a32] was not registered for synchronization because synchronization is not active
+[INFO][22-06-15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-15][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@745c2004] will not be managed by Spring
+[DEBUG][22-06-15][mapper.UserMapper.addUser]==>  Preparing: insert into mybatis.user value (?, ?, ?); 
+[DEBUG][22-06-15][mapper.UserMapper.addUser]==> Parameters: 1(Integer), zhazha(String), 888888(String)
+[DEBUG][22-06-15][mapper.UserMapper.addUser]<==    Updates: 1
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15fb7a32]
+[DEBUG][22-06-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-15][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5533dc72] will be managed by Spring
+[DEBUG][22-06-15][mapper.UserMapper.deleteUserById]==>  Preparing: delete from mybatis.user where id = ? 
+[DEBUG][22-06-15][mapper.UserMapper.deleteUserById]==> Parameters: 1(Integer)
+[DEBUG][22-06-15][mapper.UserMapper.deleteUserById]<==    Updates: 1
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-15][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45f421c]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@64fc097e] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.deleteUserById]==>  Preparing: delete from mybatis.user where id = ? 
+[DEBUG][22-06-16][mapper.UserMapper.deleteUserById]==> Parameters: 1(Integer)
+[DEBUG][22-06-16][mapper.UserMapper.deleteUserById]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45f421c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45f421c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45f421c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45f421c]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5533dc72] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.addUser]==>  Preparing: insert into mybatis.user value (?, ?, ?); 
+[DEBUG][22-06-16][mapper.UserMapper.addUser]==> Parameters: 1(Integer), zhazha(String), 888888(String)
+[DEBUG][22-06-16][mapper.UserMapper.addUser]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1aac188d] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]==>  Preparing: select count(1) from user 
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]==> Parameters: 
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5533dc72] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.addUser]==>  Preparing: insert into user value (?, ?, ?); 
+[DEBUG][22-06-16][mapper.UserMapper.addUser]==> Parameters: 1(Integer), zhazha(String), 888888(String)
+[DEBUG][22-06-16][mapper.UserMapper.addUser]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@499683c4]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@36fcf6c0] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]==>  Preparing: select * from user 
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@499683c4]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@499683c4]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@499683c4]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@499683c4]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@aaee2a2] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]==>  Preparing: select count(1) from user 
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]==> Parameters: 
+[DEBUG][22-06-16][mapper.UserMapper.getUserCount]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5533dc72] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.modifyUserById]==>  Preparing: update user set name=?, pwd=? where id = ? 
+[DEBUG][22-06-16][mapper.UserMapper.modifyUserById]==> Parameters: zha(String), 999999(String), 1(Integer)
+[DEBUG][22-06-16][mapper.UserMapper.modifyUserById]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@736048ed]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@aaee2a2] will be managed by Spring
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]==>  Preparing: select * from user 
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][22-06-16][mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76c387f9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1603dc2f] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ba380c7] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 2
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1603dc2f]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f443fae] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1cb37ee4] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 2
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f443fae]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c20aab9] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1cb37ee4] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==>  Preparing: select * from student where student.id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==> Parameters: 1(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c20aab9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23e44287] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b7cae6f] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 2
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23e44287]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b7cae6f] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==>  Preparing: select * from student where student.id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==> Parameters: 1(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cb03411] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b7cae6f] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]==>  Preparing: select * from student where student.name like concat('%', ?, '%'); 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]==> Parameters: wyl(String)
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]<==      Total: 2
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cb03411]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281f23f2] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40298285] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==>  Preparing: insert into student(name,sex) values(?,?); 
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==> Parameters: bsy(String), 女(String)
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281f23f2]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35342d2f] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40298285] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35342d2f]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@782168b7] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@41b0ae4c] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==>  Preparing: delete from student where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==> Parameters: 3(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@782168b7]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb7936c] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@41b0ae4c] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 2
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb7936c]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ece1e79] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==>  Preparing: insert into student(name, sex) values (?, ?); 
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==> Parameters: bsy(String), 女(String)
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10c2064a] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ece1e79] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10c2064a]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET name =? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: bsywyl(String), 4(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69c93ca4] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a93b263] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET sex=? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: 123(String), 4(Integer)
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69c93ca4]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET sex=? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: 12(String), 4(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a] was not registered for synchronization because synchronization is not active
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET sex=? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: 男(String), 4(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432034a]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9] was not registered for synchronization because synchronization is not active
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138caeca] will not be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@396e6d9]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@108d55c4] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@108d55c4] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==>  Preparing: select * from student where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]==> Parameters: 1(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByID]<==      Total: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@557eb543]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5ee2c9]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@108d55c4] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]==>  Preparing: select * from student where student.name like concat('%', ?, '%'); 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]==> Parameters: wyl(String)
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentByName]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5ee2c9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5ee2c9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5ee2c9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5ee2c9]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52cb4f50]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@108d55c4] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52cb4f50]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52cb4f50]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52cb4f50]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52cb4f50]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@422b8438] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==>  Preparing: insert into student(name, sex) values (?, ?); 
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]==> Parameters: bsy(String), 女(String)
+[DEBUG][22-06-16][mapper.StudentMapper.addStudent]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cec704c]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@422b8438] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 4
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cec704c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cec704c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cec704c]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cec704c]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365a6a43]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6bf13698] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==>  Preparing: delete from student where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==> Parameters: 3(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]<==    Updates: 0
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365a6a43]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365a6a43]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365a6a43]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365a6a43]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21d1b321]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6bf13698] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 4
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21d1b321]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21d1b321]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21d1b321]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21d1b321]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c796cc1]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@bdd2027] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==>  Preparing: delete from student where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]==> Parameters: 4(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.deleteStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c796cc1]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c796cc1]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c796cc1]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c796cc1]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d49fd31]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@bdd2027] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d49fd31]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d49fd31]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d49fd31]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d49fd31]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@540b0448]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@173f73e7] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET name =? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: bsywyl(String), 5(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@540b0448]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@540b0448]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@540b0448]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@540b0448]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@571a9686]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@173f73e7] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@571a9686]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@571a9686]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@571a9686]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@571a9686]
+[DEBUG][22-06-16][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[INFO][22-06-16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43a51d00] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==>  Preparing: update student SET sex=? where id = ?; 
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]==> Parameters: 男(String), 5(Integer)
+[DEBUG][22-06-16][mapper.StudentMapper.updateStudentByID]<==    Updates: 1
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50a691d3]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719d35e8]
+[DEBUG][22-06-16][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43a51d00] will be managed by Spring
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==>  Preparing: select * from student; 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]==> Parameters: 
+[DEBUG][22-06-16][mapper.StudentMapper.getStudentList]<==      Total: 3
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719d35e8]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719d35e8]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719d35e8]
+[DEBUG][22-06-16][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719d35e8]

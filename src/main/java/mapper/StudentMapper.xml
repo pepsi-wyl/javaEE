@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.StudentMapper">
+
+    <select id="getStudentList" resultType="student">
+        select *
+        from student;
+    </select>
+
+    <select id="getStudentByID" resultType="student" parameterType="int">
+        select *
+        from student
+        where id = #{id};
+    </select>
+
+    <select id="getStudentByName" resultType="student" parameterType="string">
+        select *
+        from student
+        where student.name like concat('%', #{name}, '%');
+    </select>
+
+    <insert id="addStudent" parameterType="student">
+        insert into student(name, sex)
+        values (#{name}, #{sex});
+    </insert>
+
+    <delete id="deleteStudentByID" parameterType="int">
+        delete
+        from student
+        where id = #{id};
+    </delete>
+
+    <update id="updateStudentByID" parameterType="student">
+        update student
+        <set>
+            <if test="name!=null">name =#{name},</if>
+            <if test="sex!=null">sex=#{sex},</if>
+        </set>
+        where id = #{id};
+    </update>
+
+</mapper>
